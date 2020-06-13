@@ -136,7 +136,7 @@ section {
 }
 
 #menu{
-background: url(../images/planets.jpg) no-repeat 50% 50%;
+background: url(../images/Thumb/planets.png) no-repeat 50% 50%;
 background-attachment: fixed;
 -webkit-background-size: cover;
 -moz-background-size: cover;
@@ -241,7 +241,7 @@ color: #fff;
     font-family: 'Raleway', sans-serif;
 }
 
-.reservation-input[type="text"] {
+.reservation input[type="text"] {
     font-size: 15px;
     outline: none;
     font-weight: 600;
