@@ -34,7 +34,7 @@ h1 {
     text-shadow: 2px 2px 3px rgba(0,0,0,0.5);
 }
 
-h1::after {
+h1:after {
     display: block;
     content: "";
     height: 2px;
@@ -76,7 +76,7 @@ p{
     padding-bottom: 40px;
 }
 
-section {
+.section {
     padding-top: 50px;
     margin-top: 50px;
 }
@@ -135,7 +135,7 @@ section {
     z-index: 100;
 }
 
-#menu{
+#home {
 background: url(../images/Thumb/planets.png) no-repeat 50% 50%;
 background-attachment: fixed;
 -webkit-background-size: cover;
