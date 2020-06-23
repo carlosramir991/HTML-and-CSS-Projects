@@ -1,189 +1,107 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="./css/shared.css">
-    <link rel="stylesheet" href="./css/animations.css">
-</head>
-<body>
+<html>
 
-  <!--NAV-->  
-<div class="wrap">
-  <div class="menu-container">
-    <ul class="menu">
-      <a href="#home"><li>HOME</li></a>
-      <a href="#gallery"><li>GALLERY</li></a>
-      <a href="#contact"><li>RESERVATIONS</li></a>
-    </ul>
-  </div>
-</div>
-<!--END NAV -->
+<!-- Head -->
+	<head>
+		<meta charset="UTF-8">
+		<title>Carlos Ramirez </title>
+		<link rel="stylesheet" type="text/css" href="Portfolio.css">
+	</head>
 
-<!--HOME-->
-<div id="home">
-  <div class="container">
-    <div class="text-center">
-      <span class="head-main"> The Space Station </span>
-    </div>
-  </div>
-</div>
-<!--END HOME-->
+<!-- Body -->
+<body class="Background"> 
 
-<!--GALLERY-->
-<section id="gallery">
-  <div class="container">
-    <h1>Gallery</h1>
-    <div class="flex-container">
-      <!--PHOTO-CONTAINER 1-->
-      <div class="photo-container">
-        <div class="photo">
-          <img src="./images/Thumb/humbnail_1.png" alt="">
-          <div class="photo-overlay">
-            <h3>Click to Enlarge</h3>
-            <p>We have several space launches departing daily, book your flight today!</p>
-          </div>
-        </div>
-      </div>
-      <!--END PHOTO-CONTAINER-->
+<!-- Navbar -->
+	<div class="Navbar">
+		<a class="active" href="#Home">Home</a> 
+		<a href="#About">About</a>
+		<a href="#GitHub">GitHub</a>
+		<a href="#Contact">Contact</a>
+	</div>
 
-            <!--PHOTO-CONTAINER 2-->
-            <div class="photo-container">
-              <div class="photo">
-                <img src="./images/Thumb/humbnail_2.png" alt="">
-                <div class="photo-overlay">
-                  <h3>Click to Enlarge</h3>
-                  <p>We have several space launches departing daily, book your flight today!</p>
-                </div>
-              </div>
-            </div>
-            <!--END PHOTO-CONTAINER 2-->
+<!-- Home -->
+		<br> <!-- Breaks inserted to add space between navbar and first heading -->
+		<br>
 
-                  <!--PHOTO-CONTAINER 3-->
-      <div class="photo-container">
-        <div class="photo">
-          <img src="./images/Thumb/humbnail_3.png" alt="">
-          <div class="photo-overlay">
-            <h3>Click to Enlarge</h3>
-            <p>We have several space launches departing daily, book your flight today!</p>
-          </div>
-        </div>
-      </div>
-      <!--END PHOTO-CONTAINER 3-->
+<!-- Video -->
+	<div id="Home">
+		<video autoplay muted loop id="Typing_Video"> <!-- Makes the video play automatically, on a loop and with no sound -->
+			<source src="images/videos/Piano_keys.mp4" type="video/mp4">
+			Your browser does not support HTML5 video. <!-- Display message if video fails to run -->
+		</video>
+	</div>
 
-            <!--PHOTO-CONTAINER 4-->
-            <div class="photo-container">
-              <div class="photo">
-                <img src="./images/Thumb/humbnail_4.png" alt="">
-                <div class="photo-overlay">
-                  <h3>Click to Enlarge</h3>
-                  <p>We have several space launches departing daily, book your flight today!</p>
-                </div>
-              </div>
-            </div>
-            <!--END PHOTO-CONTAINER 4-->
+<!-- Video text --> 
+	<div class="Video_Text"> 
+		<h1 style="color:white;">Carlos' Portfolio</h1>
+			<p> 
+				<strong>
+					<center>
+						<q>The computer programmer is a creator of universes for which he alone is the lawgiver.
+						<br>No playwright, no stage director, no emperor, however powerful, has ever exercised such absolute authority to arrange a stage or
+						<br>field of battle and to command such unswervingly dutiful actors or troops.
+						</q>	
+						<br>-Joseph Weizenbaum<br>
+						<br>
+						My name is Carlos Ramirez. Welcome to my portfolio website. On it, I will tell you about my background and experience.<br>
+						<br>Thank you for stopping by and enjoy! 
+					</center>	
+				</strong>
+			</p> 
+	</div>
 
-                  <!--PHOTO-CONTAINER 5-->
-      <div class="photo-container">
-        <div class="photo">
-          <img src="./images/Thumb/humbnail_5.png" alt="">
-          <div class="photo-overlay">
-            <h3>Click to Enlarge</h3>
-            <p>We have several space launches departing daily, book your flight today!</p>
-          </div>
-        </div>
-      </div>
-      <!--END PHOTO-CONTAINER 5-->
+<!-- About section -->
+	<div class="Row" id="About"> 
+		<div class="Column_2"> <!-- Left column -->
+			<img src="images/Thumb/Development.jpg" alt="Laptop">
+		</div>
+  
+		<div class="Column_1"> <!-- Right column -->
+			<h1>About</h2>
+				<p>I am a software developer who loves to code! I enjoy playing the piano, drawing and writing code! <br><br>I am a graduate of <a href="https://www.learncodinganywhere.com" target="_blank">The Tech Academy</a>’s Software Developer Boot Camp, and trained and experienced in the following web and programming languages: HTML, CSS, JavaScript, SQL, C# and more. <br><br>I am a full-stack developer and would love to work with you on your project. <a href="#Contact">Contact</a> me below!</p>
+		</div>
+	</div>
 
-            <!--PHOTO-CONTAINER 6-->
-            <div class="photo-container">
-              <div class="photo">
-                <img src="./images/Thumb/humbnail_6.png" alt="">
-                <div class="photo-overlay">
-                  <h3>Click to Enlarge</h3>
-                  <p>We have several space launches departing daily, book your flight today!</p>
-                </div>
-              </div>
-            </div>
-            <!--END PHOTO-CONTAINER 6-->
+<!-- GitHub section -->
+	<div class="Row" id="GitHub">
+		<div class="Column_1"> <!-- Left column -->
+			<h1>GitHub</h1>
+				<p>You can view my coding projects on my GitHub profile here:<br>
+				<center><a href="https://github.com/the-tech-academy" target="_blank">The Tech Academy GitHub</a></center></p>
+		</div>
+		
+		<div class="Column_2"> <!-- Right column -->
+			<a href="https://github.com/the-tech-academy" target="_blank"><img src="images/Thumb/gitHub2.jpg" alt="GitHub"></a>
+		</div>
+	</div>
 
-                  <!--PHOTO-CONTAINER 7-->
-      <div class="photo-container">
-        <div class="photo">
-          <img src="./images/Thumb/humbnail_7.png" alt="">
-          <div class="photo-overlay">
-            <h3>Click to Enlarge</h3>
-            <p>We have several space launches departing daily, book your flight today!</p>
-          </div>
-        </div>
-      </div>
-      <!--END PHOTO-CONTAINER 7-->
+<!-- Contact section -->
+	<div class="Row" id="Contact"> 
+		<div class="Column_3"> <!-- Contact image, left column -->
+			<img src="images/Thumb/contact.jpg" alt="Contact_Image">
+		</div>
+	
+		<div class="Column_1"> <!-- Contact form, right "column" -->
+			<h1>Contact</h2> 
+				<form action="" method="get"> <!-- This specifies where to send the form data and how; it is left blank -->
+					<label>Name:</label>
+						<input type="text" placeholder="Please enter your name here">
+					<label>Email:</label>
+						<input type="text" id="Email" name="Email" placeholder="Please enter your email here">
+					<label>Message:</label>
+						<input type="text" id="Message" name="Message" placeholder="Please write your message here">
+						<input type="submit" value="Submit">
+				</form>
+		</div>
+	</div>
+	
+<!-- Footer section -->
+	<footer>
+		<p>
+			<center>&copy Prosper Consulting Inc.,  <a href="https://learncodinganywhere.com/">The Tech Academy</a></center><br>
+		</p>
+	</footer>
 
-            <!--PHOTO-CONTAINER 8-->
-            <div class="photo-container">
-              <div class="photo">
-                <img src="./images/Thumb/humbnail_8.png" alt="">
-                <div class="photo-overlay">
-                  <h3>Click to Enlarge</h3>
-                  <p>We have several space launches departing daily, book your flight today!</p>
-                </div>
-              </div>
-            </div>
-            <!--END PHOTO-CONTAINER 8-->
+		</body>
 
-                  <!--PHOTO-CONTAINER 9-->
-      <div class="photo-container">
-        <div class="photo">
-          <img src="./images/Thumb/humbnail_9.png" alt="">
-          <div class="photo-overlay">
-            <h3>Click to Enlarge</h3>
-            <p>We have several space launches departing daily, book your flight today!</p>
-          </div>
-        </div>
-      </div>
-      <!--END PHOTO-CONTAINER 9-->
-    </div>
-  </div>
-</section>
-<!--END GALLERY-->
-
-<!--RSVP-->
-<section id="contact">
-  <div class="container">
-    <div class="heading-padding">
-      <h1 class="heading-padding">Reservations</h1>
-      <div class="reservation">
-        <h2><span>Your adventure is just around the moon.</span>
-          <br/>Reserve your flight today!
-        </h2>
-        <p class="rsvp-text">
-          Please provide us with your basic contact information.
-        </p>
-        <div class="form-rsvp">
-          <form action="" method="POST">
-            <input class="rsvp" type="text" value="" placeholder="First Name">
-            <input class="rsvp" type="text" value="" placeholder="Last Name">
-            <input class="rsvp" type="text" value="" placeholder="Email Address">
-            <input class="rsvp" type="text" value="" placeholder="Phone Number">
-            <div class="form-spacer">
-              <label class="terms">Terms and Conditions</label>
-            </div>
-            <div class="submit">
-              <input type="submit" value="Submit">
-            </div>
-          </form>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!--END RSVP-->
-
-<!--FOOTER-->
-<div id="footer">
-  www.thespaces.space &nbsp;|&nbsp; &copy; 2020
-</div>
-<!--END FOOTER-->
-
-
-</body>
 </html>
