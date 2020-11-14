@@ -1,0 +1,12 @@
+/Users/slims/Documents/Basic_C#_Programs/myConsoleProject.cs/myConsoleProject.cs/bin/Debug/netcoreapp3.1/myConsoleProject.cs.deps.json
+/Users/slims/Documents/Basic_C#_Programs/myConsoleProject.cs/myConsoleProject.cs/bin/Debug/netcoreapp3.1/myConsoleProject.cs.runtimeconfig.json
+/Users/slims/Documents/Basic_C#_Programs/myConsoleProject.cs/myConsoleProject.cs/bin/Debug/netcoreapp3.1/myConsoleProject.cs.runtimeconfig.dev.json
+/Users/slims/Documents/Basic_C#_Programs/myConsoleProject.cs/myConsoleProject.cs/bin/Debug/netcoreapp3.1/myConsoleProject.cs.dll
+/Users/slims/Documents/Basic_C#_Programs/myConsoleProject.cs/myConsoleProject.cs/bin/Debug/netcoreapp3.1/myConsoleProject.cs.pdb
+/Users/slims/Documents/Basic_C#_Programs/myConsoleProject.cs/myConsoleProject.cs/obj/Debug/netcoreapp3.1/myConsoleProject.cs.csprojAssemblyReference.cache
+/Users/slims/Documents/Basic_C#_Programs/myConsoleProject.cs/myConsoleProject.cs/obj/Debug/netcoreapp3.1/myConsoleProject.cs.AssemblyInfoInputs.cache
+/Users/slims/Documents/Basic_C#_Programs/myConsoleProject.cs/myConsoleProject.cs/obj/Debug/netcoreapp3.1/myConsoleProject.cs.AssemblyInfo.cs
+/Users/slims/Documents/Basic_C#_Programs/myConsoleProject.cs/myConsoleProject.cs/obj/Debug/netcoreapp3.1/myConsoleProject.cs.csproj.CoreCompileInputs.cache
+/Users/slims/Documents/Basic_C#_Programs/myConsoleProject.cs/myConsoleProject.cs/obj/Debug/netcoreapp3.1/myConsoleProject.cs.dll
+/Users/slims/Documents/Basic_C#_Programs/myConsoleProject.cs/myConsoleProject.cs/obj/Debug/netcoreapp3.1/myConsoleProject.cs.pdb
+/Users/slims/Documents/Basic_C#_Programs/myConsoleProject.cs/myConsoleProject.cs/obj/Debug/netcoreapp3.1/myConsoleProject.cs.genruntimeconfig.cache
